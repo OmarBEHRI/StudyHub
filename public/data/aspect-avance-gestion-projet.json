@@ -1,0 +1,173 @@
+[
+  {
+    "question": "Soient les tâches : A : réalisée par Karim, d'une durée de 4 jours et commence à la date 7 ; B : réalisée par Ali, d'une durée de 6 jours et commence à la date 10. Sachant que A et B sont prédécesseurs de la tâche C, le temps d'attente, en jours, de C est égal à :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "5, SI C est réalisée par Ali", "isCorrect": false },
+      { "choice": "0, SI C est réalisée par Karim", "isCorrect": false },
+      { "choice": "5, SI C est réalisée par Karim", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Soit un projet P d'une durée de 6 mois, auquel sont affectées 1 ressource (Fatima) à plein temps et 2 ressources (Moussa et Ahmed) à mi-temps. A la fin du projet P : toutes les ressources ont été payées sur les 6 mois, Fatima n'a été active qu'un mois sur deux, et Moussa et Ahmed ont travaillé les 6 mois. Quel est le taux de productivité de ce projet :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "75%", "isCorrect": true },
+      { "choice": "65%", "isCorrect": false },
+      { "choice": "70%", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "La Technique DELPHI est une méthode d'estimation basée sur :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "L'analogie et l'exploitation de projets passés", "isCorrect": false },
+      { "choice": "La recherche de consensus entre plusieurs estimations", "isCorrect": true },
+      { "choice": "L'utilisation de formules mathématiques", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "D'un point de vue facteurs de coût de COCOMO intermédiaire, un Projet P présente des contraintes basses de « complexité de l'application » et de « maturité des architectes », alors que le « niveau de maturité de ses programmeurs » est élevé, ainsi que celui des pratiques des langages de programmation utilisés. Sachant que tous les autres facteurs de coût n'ont aucune influence sur le projet P, et que sa charge nominale est égale à 180 M*H, la charge nette peut être estimée à (valeur arrondie) :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "150,30 M*H", "isCorrect": false },
+      { "choice": "162,52 M*H", "isCorrect": true },
+      { "choice": "166,24 M*H", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "« Connaître les standards minimaux des méthodes, outils et techniques à utiliser » est l'un des objectifs de la phase :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "d'Organisation de la Gestion de Projet", "isCorrect": true },
+      { "choice": "de Planification de la Gestion de Projet", "isCorrect": false },
+      { "choice": "de Pilotage de la Gestion de Projet", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Un projet dont l'équipe est composé d'intervenants qui restent affectés à mi-temps à leurs structures d'origine, est un projet qui a une organisation :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "« en structure Matricielle »", "isCorrect": true },
+      { "choice": "« en Task-Force »", "isCorrect": false },
+      { "choice": "« en option Coordinateur »", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Une ressource R est responsable de la réalisation d'une tâche T dont la charge consommée, la charge disponible et la charge à engager, sont respectivement égales à 5, 8 et 10 J*H. Quel est le coefficient de productivité de la ressource R :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "60 %", "isCorrect": false },
+      { "choice": "65 %", "isCorrect": false },
+      { "choice": "70 %", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "« Faire accomplir les missions et contrôler la qualité des résultats » est l'objectif de :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "La Phase de Production de la Gestion de Projet", "isCorrect": false },
+      { "choice": "La Phase d’Organisation de la Gestion de Projet", "isCorrect": false },
+      { "choice": "La Phase Pilotage de la Gestion de Projet", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Une application APP est en cours de développement par la société M au profit de la société N. La Société N est :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Maître d’œuvre (MOE)", "isCorrect": false },
+      { "choice": "Maître d’Ouvrage (MOA)", "isCorrect": true },
+      { "choice": "Sous-traitant", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Soient les tâches : T1 : réalisée par Karim, et se termine à la date 10 ; T2 : réalisée par Ali, et se termine à la date 9. Sachant que T1 et T2 sont prédécesseurs de la tâche T3, le temps d'attente au niveau de T3 est égal à :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "1, Si T3 est réalisée par Karim", "isCorrect": false },
+      { "choice": "0, Si T3 réalisée par Ali", "isCorrect": false },
+      { "choice": "1, Si T3 est réalisée par Ali", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "L'intention décrit :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "des exemples de produits d'activités", "isCorrect": false },
+      { "choice": "la finalité du domaine de processus", "isCorrect": true },
+      { "choice": "les références aux domaines de processus apparentés", "isCorrect": false },
+      { "choice": "les concepts couverts par le domaine de processus", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Les objectifs génériques décrivent :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "les activités attendues qui permettent de satisfaire aux objectifs mis en œuvre dans un domaine de processus", "isCorrect": false },
+      { "choice": "les caractéristiques qui doivent être présentes pour institutionnaliser les processus mis en œuvre dans un domaine de processus", "isCorrect": true },
+      { "choice": "les description détaillées qui fournissent des conseils pour interpréter un domaine de processus", "isCorrect": false },
+      { "choice": "les pointeurs vers des information additionnelles plus détaillées présentes dans des domaines de processus connexes.", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Les Objectifs spécifiques sont des composantes :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Informatifs", "isCorrect": false },
+      { "choice": "Requises", "isCorrect": true },
+      { "choice": "Attendus", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Un niveau de maturité (maturity level) correspond à :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "l'implémentation des pratiques spécifiques pour un seul domaine de processus", "isCorrect": false },
+      { "choice": "l'implémentation des objectifs spécifiques pour un seul domaine de processus", "isCorrect": false },
+      { "choice": "l'atteinte d'un niveau de capabilité uniforme pour un groupe de processus", "isCorrect": true },
+      { "choice": "l'atteinte des objectifs d'un processus", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Atteindre le niveau de maturité 'géré quantitativement', pour une entreprise, signifie que la structure :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "fonctionne au niveau projet", "isCorrect": false },
+      { "choice": "fonctionne au niveau organisationnel", "isCorrect": true },
+      { "choice": "dispose d'un référentiel de statistiques pour construire et piloter les projets", "isCorrect": true },
+      { "choice": "est gérée par le phénomène du « héros »", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans la représentation continue, le domaine de processus « Gestion des exigences » fait partie de la catégorie :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Process Management", "isCorrect": false },
+      { "choice": "Project Management", "isCorrect": true },
+      { "choice": "Engineering", "isCorrect": false },
+      { "choice": "Support", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Séléctionner les PAs de support dans la représentation continue :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Planification de projet", "isCorrect": false },
+      { "choice": "Mesure et analyse", "isCorrect": true },
+      { "choice": "Développement des exigences", "isCorrect": false },
+      { "choice": "Vérification", "isCorrect": false },
+      { "choice": "Gestion de configuration", "isCorrect": true },
+      { "choice": "Formation Organisationnelle", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Identifier le PA à l'aide de la définition : Je suis en charge d'identifier les causes des défauts et des autres problèmes et de faire en sorte de prévenir leur récurrence dans le futur.",
+    "type": "single",
+    "choices": [
+      { "choice": "Intégration de Produit 'PI'", "isCorrect": false },
+      { "choice": "Solution technique 'TS'", "isCorrect": false },
+      { "choice": "Analyse causale et résolution 'CAR'", "isCorrect": true },
+      { "choice": "Analyse et prise de décision 'DAR'", "isCorrect": false }
+    ]
+  }
+]

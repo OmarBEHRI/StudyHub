@@ -1,0 +1,168 @@
+[
+  {
+    "question": "Dans la vision fonctionnelle, une fonction est représentée par :",
+    "type": "single",
+    "choices": [
+      { "choice": "La capacité nécessaire à la réalisation d'une ou plusieurs activités", "isCorrect": true },
+      { "choice": "Le rôle d'un acteur", "isCorrect": false },
+      { "choice": "Un use case", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "L'urbanisation des SI touche :",
+    "type": "single",
+    "choices": [
+      { "choice": "Le métier et la stratégie de l'entreprise", "isCorrect": false },
+      { "choice": "Le métier et la structure fonctionnelle de l'entreprise", "isCorrect": false },
+      { "choice": "Le métier et la structure informatique de l'entreprise", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "La vision informatique se découpe principalement en différents points de vue :",
+    "type": "single",
+    "choices": [
+      { "choice": "Applicative et technique", "isCorrect": true },
+      { "choice": "Architecture logicielle et infrastructure technique", "isCorrect": false },
+      { "choice": "Applicative et architecture réseau", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "À quoi correspond l'alignement stratégique du SI :",
+    "type": "single",
+    "choices": [
+      { "choice": "Définir les processus métier de l'entreprise", "isCorrect": false },
+      { "choice": "Cartographier le SI de l'entreprise", "isCorrect": false },
+      { "choice": "Définir les concepts informatiques du SI", "isCorrect": false },
+      { "choice": "Mettre en cohérence le SI avec la stratégie de l'entreprise", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "En audit des applications opérationnelles, l'évaluation de la fiabilité des traitements se fait grâce à l'analyse des erreurs ou des anomalies qui surviennent dans le cadre des opérations courantes, dans ce contexte :",
+    "type": "single",
+    "choices": [
+      { "choice": "L'auditeur va effectuer des analyses sur le contenu des principales bases de données afin de détecter d'éventuelles anomalies", "isCorrect": false },
+      { "choice": "L'auditeur peut être amené à constituer des jeux d'essais pour s'assurer de la qualité des traitements", "isCorrect": true },
+      { "choice": "L'auditeur va s'intéresser au nombre d'opérations effectuées dans des conditions normales d'utilisation", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "La vue stratégique a pour but de décrire la stratégie de l'entreprise du point de vue :",
+    "type": "single",
+    "choices": [
+      { "choice": "Métier et système d'information", "isCorrect": true },
+      { "choice": "Métier et système informatique", "isCorrect": false },
+      { "choice": "Système informatique et système d'information", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Le plan d'urbanisme doit faciliter la construction d'une architecture optimisée du point de vue :",
+    "type": "single",
+    "choices": [
+      { "choice": "Applicatif", "isCorrect": false },
+      { "choice": "Fonctionnel", "isCorrect": true },
+      { "choice": "Technique", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Les cartes élaborées dans l'architecture métier sont :",
+    "type": "single",
+    "choices": [
+      { "choice": "La carte des flux d'information", "isCorrect": false },
+      { "choice": "La carte des processus métier", "isCorrect": false },
+      { "choice": "Les trois (a, b et c)", "isCorrect": true },
+      { "choice": "La carte des processus majeurs", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans la vue fonctionnelle, la zone Gisement de données représente :",
+    "type": "single",
+    "choices": [
+      { "choice": "Les données dont le cycle de vie est relativement stable communes à l'ensemble du SI", "isCorrect": true },
+      { "choice": "Les données qui incluent une dimension décisionnelle", "isCorrect": false },
+      { "choice": "Les données dynamiques produites au fil de l'eau communes à l'ensemble du SI", "isCorrect": false },
+      { "choice": "Les données sur les règles métier", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "L'objectif de la restructuration globale du SI est :",
+    "type": "single",
+    "choices": [
+      { "choice": "Maitriser l'intégration d'un certain nombre de composants logiciels et progiciels", "isCorrect": false },
+      { "choice": "Former un SI agile et cohérent", "isCorrect": true },
+      { "choice": "Intégrer les nouvelles technologies", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Envisager l'implémentation des blocs fonctionnels cibles en optant pour le développement spécifique correspond à un mapping :",
+    "type": "single",
+    "choices": [
+      { "choice": "0-N (Bloc fonctionnel/Bloc applicatif)", "isCorrect": false },
+      { "choice": "1-1 (Bloc fonctionnel/Bloc applicatif)", "isCorrect": true },
+      { "choice": "1-N (Bloc fonctionnel/Bloc applicatif)", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Il existe plusieurs approches possibles pour réaliser une démarche d'urbanisation, laquelle est la plus privilégiée :",
+    "type": "single",
+    "choices": [
+      { "choice": "L'approche Top-Down", "isCorrect": true },
+      { "choice": "L'approche Bottom-Up", "isCorrect": false },
+      { "choice": "L'approche Big Bang", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "En urbanisation du SI, la vue pivot du métamodèle d'urbanisme est :",
+    "type": "single",
+    "choices": [
+      { "choice": "La vue métier", "isCorrect": false },
+      { "choice": "La vue applicative", "isCorrect": false },
+      { "choice": "La vue fonctionnelle", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "La couche applicative décrit les composants logiciels et leurs interopérabilités, elle montre :",
+    "type": "single",
+    "choices": [
+      { "choice": "Quelles applications implémentent quelles fonctions", "isCorrect": true },
+      { "choice": "Quelles applications implémentent quelles zones", "isCorrect": false },
+      { "choice": "Quelles applications implémentent quels processus", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quels sont les trois concepts fondamentaux pour décrire les processus métier ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Fonction, application, entité", "isCorrect": false },
+      { "choice": "Processus, activité, rôle", "isCorrect": true },
+      { "choice": "Activité, lieu, application", "isCorrect": false },
+      { "choice": "Action, acteur, entité", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Un « Bloc applicatif » est défini comme :",
+    "type": "single",
+    "choices": [
+      { "choice": "Flux d'échange inter-applicatif", "isCorrect": false },
+      { "choice": "Processus", "isCorrect": false },
+      { "choice": "Module Logiciel", "isCorrect": true },
+      { "choice": "Interface", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Le Plan d'urbanisme cible veillera à préserver des réserves foncières :",
+    "type": "single",
+    "choices": [
+      { "choice": "Pour faciliter la migration vers le Sl cible", "isCorrect": true },
+      { "choice": "En prévention de l'implémentation de nouveaux applicatifs", "isCorrect": false },
+      { "choice": "En prévention de l'évolution des besoins", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans la vue fonctionnelle, un bloc doit disposer de :",
+    "type": "single",
+    "choices": [
+      { "choice": "2 points d'ancrage", "isCorrect": false },
+      { "choice": "3 points d'ancrage", "isCorrect": true }
+    ]
+  }
+]

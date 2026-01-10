@@ -1,0 +1,568 @@
+[
+  {
+    "question": "Dans le modèle 'client-serveur', 'l'évaluation à distance' a essentiellement pour objectif :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Rapprocher les traitements des données", "isCorrect": true },
+      { "choice": "Réduire le volume des échanges réseau", "isCorrect": true },
+      { "choice": "Equilibrer les charges entre les machines", "isCorrect": true },
+      { "choice": "Mettre les traitements aux mêmes endroits", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Pour négocier, les agents doivent suivre un protocole d'actions :",
+    "type": "single",
+    "choices": [
+      { "choice": "Vrai", "isCorrect": true },
+      { "choice": "Faux", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Pour un agent, répondre aux changements qui se produisent dans son environnement c'est :",
+    "type": "single",
+    "choices": [
+      { "choice": "De la réactivité", "isCorrect": true },
+      { "choice": "De la proactivité", "isCorrect": false },
+      { "choice": "De l'autonomie", "isCorrect": false },
+      { "choice": "De la sociabilité", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Concernant les agents et les objets, quelles sont les propositions correctes ?",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Un objet peut refuser d'exécuter une action", "isCorrect": false },
+      { "choice": "Un agent peut refuser d'exécuter une action", "isCorrect": true },
+      { "choice": "Un objet est sociable", "isCorrect": false },
+      { "choice": "Un agent est sociable", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Les agents mobiles se distinguent des 'processus mobiles' au niveau de l'exécution asynchrone. C'est à dire :",
+    "type": "single",
+    "choices": [
+      { "choice": "L'application ayant créée et envoyée l'agent peut se déconnecter", "isCorrect": true },
+      { "choice": "L'agent est autonome et interagit localement avec un service distant", "isCorrect": false },
+      { "choice": "L'agent est obligé de retourner à son site initial une fois la connexion réseau rétablies", "isCorrect": false },
+      { "choice": "L'agent ne peut pas travailler si la connexion réseau est coupée", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Les agents mobiles se distinguent des 'processus mobiles' au niveau :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Nombre de déplacement", "isCorrect": true },
+      { "choice": "Le déplacement est décidé par l'agent (application) et non le système", "isCorrect": true },
+      { "choice": "Accéder aux ressources disponibles dans d'autres machines", "isCorrect": true },
+      { "choice": "Supporter des opérations déconnectées", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "La prise de décision de l'agent est un aspect plutôt lié au domaine de :",
+    "type": "single",
+    "choices": [
+      { "choice": "L'intelligence artificielle", "isCorrect": true },
+      { "choice": "Systèmes distribués", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Laquelle de ces normes ne parle pas de la communication entre agents dans sa spécification des services fournis ?",
+    "type": "single",
+    "choices": [
+      { "choice": "FIPA", "isCorrect": false },
+      { "choice": "MASIF", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Dans le modèle 'client-serveur', le 'code à la demande' et 'l'évaluation à distance' sont deux visions du même paradigme 'Objet mobile' :",
+    "type": "single",
+    "choices": [
+      { "choice": "Vrai", "isCorrect": true },
+      { "choice": "Faux", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quel est le langage de programmation utilisé par Jade ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Java", "isCorrect": true },
+      { "choice": "Python", "isCorrect": false },
+      { "choice": "C++", "isCorrect": false },
+      { "choice": "Ruby", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelle est la méthode utilisée pour ajouter un comportement à un agent avec Jade ?",
+    "type": "single",
+    "choices": [
+      { "choice": "addBehaviour()", "isCorrect": true },
+      { "choice": "setBehaviour()", "isCorrect": false },
+      { "choice": "addGoal()", "isCorrect": false },
+      { "choice": "setGoal()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelle méthode est invoquée dès la création d'un agent sous JADE ?",
+    "type": "single",
+    "choices": [
+      { "choice": "setup()", "isCorrect": true },
+      { "choice": "doCreate()", "isCorrect": false },
+      { "choice": "init()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans JADE, quelles sont les méthodes statiques propres aux agents (et non aux comportements) ?",
+    "type": "multiple",
+    "choices": [
+      { "choice": "block()", "isCorrect": true },
+      { "choice": "onStart()", "isCorrect": false },
+      { "choice": "setup()", "isCorrect": false },
+      { "choice": "takeDown()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelles sont les propositions vraies concernant les agents sous JADE ?",
+    "type": "single",
+    "choices": [
+      { "choice": "A chaque agent est associé un thread", "isCorrect": true },
+      { "choice": "A chaque comportement est associé un thread", "isCorrect": false },
+      { "choice": "A chaque conteneur d'agents est associé un thread", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "CyclicBehaviour est une implémentation du comportement générique, Behaviour, où la méthode done() retourne la valeur :",
+    "type": "single",
+    "choices": [
+      { "choice": "False", "isCorrect": true },
+      { "choice": "True", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Une action devant être programmée toutes les heures par un agent. Quel type de comportement prédéfini cet agent peut-il adopter ?",
+    "type": "single",
+    "choices": [
+      { "choice": "WakerBehaviour", "isCorrect": false },
+      { "choice": "TimerBehaviour", "isCorrect": false },
+      { "choice": "TickerBehaviour", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Un agent JADE doit rappeler, chaque minute, aux autres agents qu'ils doivent vérifier leurs boites aux lettres. Quel type de comportement prédéfini cet agent peut-il adopter ?",
+    "type": "single",
+    "choices": [
+      { "choice": "TickerBehaviour", "isCorrect": true },
+      { "choice": "AlertBehaviour", "isCorrect": false },
+      { "choice": "WakerBehaviour", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Lorsqu'un agent JADE n'a pas de comportement à exécuter, il se trouve dans quel état ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Waiting", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Supposons que le comportement d'un agent JADE consiste à récupérer un message, par la méthode receive(), et que sa boite aux lettres est vide. Que se passe-t-il alors ?",
+    "type": "single",
+    "choices": [
+      { "choice": "L'agent est bloqué en attendant l'arrivée d'un message", "isCorrect": false },
+      { "choice": "L'agent reste actif et son exécution continue (retourne null)", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Au niveau de l'interface graphique, quel outil fourni par JADE permet d'analyser les messages d'une application ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Sniffer Agent", "isCorrect": true },
+      { "choice": "Dummy Agent", "isCorrect": false },
+      { "choice": "Introspector Agent", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Les traitements sur les concepts d'une ontologie sont :",
+    "type": "single",
+    "choices": [
+      { "choice": "Des performatives", "isCorrect": false },
+      { "choice": "Des prédicats", "isCorrect": false },
+      { "choice": "Des actions", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Un agent JADE A souhaite connaître l'emplacement où réside un autre agent B. Il doit demander à l'agent d'autorité (l'AMS) d'effectuer une action. Laquelle ?",
+    "type": "single",
+    "choices": [
+      { "choice": "where-is-agent", "isCorrect": true },
+      { "choice": "query-agents-on-location", "isCorrect": false },
+      { "choice": "query-platform-locations", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans JADE, un agent peut migrer sans demander à l'agent d'autorité (l'AMS) de réaliser cette action à sa place :",
+    "type": "single",
+    "choices": [
+      { "choice": "Vrai", "isCorrect": true },
+      { "choice": "Faux", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans JADE, un agent peut migrer lui-même mais il peut aussi forcer la migration d'un autre agent en passant par l'AMS :",
+    "type": "single",
+    "choices": [
+      { "choice": "Vrai", "isCorrect": true },
+      { "choice": "Faux", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans les systèmes d'agents basés sur Java, il est difficile d'implémenter la migration forte car :",
+    "type": "single",
+    "choices": [
+      { "choice": "Le problème est surtout lié à la sérialisation dans Java", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Que fait l'agent JADE en exécutant les instructions suivantes ? DFAgentDescription carnet = new DFAgentDescription(); DFService.register(this, carnet);",
+    "type": "single",
+    "choices": [
+      { "choice": "L'agent s'enregistre sur un sujet (topic)", "isCorrect": false },
+      { "choice": "L'agent s'enregistre sur les pages jaunes", "isCorrect": true },
+      { "choice": "L'agent s'enregistre sur la plateforme", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Voici une partie d'un message tel que capturé à l'aide du sniffer JADE (REQUEST ... :ontology jade-mobility-ontology :protocol fipa-request). Quelles affirmations sont correctes ?",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Il faut composer ce message à la main", "isCorrect": false },
+      { "choice": "C'est un message FIPA-ACL", "isCorrect": true },
+      { "choice": "Ce message est envoyé à l'agent d'autorité (l'AMS)", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Dans JADE, quel agent gère les 'Pages Jaunes' ?",
+    "type": "single",
+    "choices": [
+      { "choice": "AMS", "isCorrect": false },
+      { "choice": "DF (Directory Facilitator)", "isCorrect": true },
+      { "choice": "RMA", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Laquelle des caractéristiques suivantes n'est pas une propriété fondamentale d'un agent ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Autonomie", "isCorrect": false },
+      { "choice": "Mobilité", "isCorrect": true },
+      { "choice": "Réactivité", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Un agent qui agit de manière à atteindre ses buts sans attendre une sollicitation externe est dit :",
+    "type": "single",
+    "choices": [
+      { "choice": "Réactif", "isCorrect": false },
+      { "choice": "Proactif", "isCorrect": true },
+      { "choice": "Passif", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelle propriété permet à un agent de prendre l'initiative d'entreprendre des actions pour atteindre ses objectifs plutôt que de simplement subir son environnement ?",
+    "type": "single",
+    "choices": [
+      { "choice": "La réactivité", "isCorrect": false },
+      { "choice": "La proactivité", "isCorrect": true },
+      { "choice": "La sociabilité", "isCorrect": false },
+      { "choice": "La mobilité", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans le paradigme 'Code à la demande', où se situent les ressources et où se situe le code (savoir-faire) avant l'exécution ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Les ressources et le code sont tous deux sur le serveur", "isCorrect": false },
+      { "choice": "Les ressources sont sur le client, le code est sur le serveur", "isCorrect": true },
+      { "choice": "Les ressources sont sur le serveur, le code est sur le client", "isCorrect": false },
+      { "choice": "Les ressources et le code sont tous deux sur le client", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelle est la différence principale entre une 'Migration Faible' et une 'Migration Forte' ?",
+    "type": "single",
+    "choices": [
+      { "choice": "La migration faible déplace le code ; la forte déplace le code et les données", "isCorrect": false },
+      { "choice": "La migration faible redémarre l'agent au début ; la forte reprend l'exécution à l'endroit exact de l'arrêt", "isCorrect": true },
+      { "choice": "La migration faible est pour les objets ; la forte est pour les agents", "isCorrect": false },
+      { "choice": "La migration faible nécessite JADE ; la forte nécessite FIPA", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Selon le modèle de référence FIPA, quel composant est responsable de maintenir l'annuaire des adresses d'agents (Pages Blanches) ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Le DF (Directory Facilitator)", "isCorrect": false },
+      { "choice": "L'ACC (Agent Communication Channel)", "isCorrect": false },
+      { "choice": "L'AMS (Agent Management System)", "isCorrect": true },
+      { "choice": "Le MTS (Message Transport System)", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Lesquelles de ces propriétés font partie de la notion 'faible' de l'agent selon Wooldridge et Jennings ?",
+    "type": "multiple",
+    "choices": [
+      { "choice": "L'autonomie", "isCorrect": true },
+      { "choice": "Les états mentaux (Croyances, Désirs, Intentions)", "isCorrect": false },
+      { "choice": "La sociabilité", "isCorrect": true },
+      { "choice": "La réactivité", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Quelle classe JADE chaque agent défini par l'utilisateur doit-il obligatoirement étendre ?",
+    "type": "single",
+    "choices": [
+      { "choice": "jade.core.Behaviour", "isCorrect": false },
+      { "choice": "jade.core.Agent", "isCorrect": true },
+      { "choice": "jade.gui.GuiAgent", "isCorrect": false },
+      { "choice": "java.lang.Thread", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Pour terminer un agent par programmation depuis son propre code, quelle méthode doit être appelée ?",
+    "type": "single",
+    "choices": [
+      { "choice": "stop()", "isCorrect": false },
+      { "choice": "doDelete()", "isCorrect": true },
+      { "choice": "takeDown()", "isCorrect": false },
+      { "choice": "kill()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Si vous voulez qu'un comportement s'exécute une seule fois puis soit supprimé, quelle classe devez-vous étendre ?",
+    "type": "single",
+    "choices": [
+      { "choice": "CyclicBehaviour", "isCorrect": false },
+      { "choice": "TickerBehaviour", "isCorrect": false },
+      { "choice": "OneShotBehaviour", "isCorrect": true },
+      { "choice": "WakerBehaviour", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Que se passe-t-il lorsqu'un agent appelle block() à l'intérieur d'un comportement ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Le thread complet de l'agent s'arrête définitivement", "isCorrect": false },
+      { "choice": "Seul ce comportement spécifique est mis en pause jusqu'à l'arrivée d'un nouveau message", "isCorrect": true },
+      { "choice": "L'agent migre vers un autre conteneur", "isCorrect": false },
+      { "choice": "Tous les comportements de l'agent sont supprimés", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans JADE, comment plusieurs comportements sont-ils exécutés par un seul agent ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Exécution parallèle utilisant plusieurs threads Java", "isCorrect": false },
+      { "choice": "Ordonnancement coopératif (Round-robin) utilisant un seul thread", "isCorrect": true },
+      { "choice": "Un seul comportement peut exister par agent", "isCorrect": false },
+      { "choice": "Ils sont exécutés par ordre alphabétique", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelle méthode est utilisée pour libérer des ressources (ex: fermer une BD) avant la mort de l'agent ?",
+    "type": "single",
+    "choices": [
+      { "choice": "finalize()", "isCorrect": false },
+      { "choice": "setup()", "isCorrect": false },
+      { "choice": "takeDown()", "isCorrect": true },
+      { "choice": "onEnd()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "En utilisant ParallelBehaviour, quelles politiques déterminent quand le comportement est 'fini' ?",
+    "type": "multiple",
+    "choices": [
+      { "choice": "WHEN_ALL (tous les sous-comportements finis)", "isCorrect": true },
+      { "choice": "WHEN_ANY (au moins un sous-comportement fini)", "isCorrect": true },
+      { "choice": "WHEN_NONE (aucun sous-comportement démarré)", "isCorrect": false },
+      { "choice": "Un seuil entier spécifique de comportements terminés", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Quel champ d'un ACLMessage est utilisé pour lier une réponse à un message d'origine spécifique ?",
+    "type": "single",
+    "choices": [
+      { "choice": ":reply-to", "isCorrect": false },
+      { "choice": ":in-reply-to", "isCorrect": true },
+      { "choice": ":conversation-id", "isCorrect": false },
+      { "choice": ":reply-with", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quels sont le langage et l'ontologie par défaut pour la communication de mobilité avec l'AMS ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Langage SL / Ontologie jade-mobility-ontology", "isCorrect": true },
+      { "choice": "XML / FIPA-Request", "isCorrect": false },
+      { "choice": "LEAP / Standard-Ontology", "isCorrect": false },
+      { "choice": "Bit-efficient / Management-Ontology", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelle performative est la plus appropriée lorsqu'un agent veut refuser une requête qu'il ne peut satisfaire ?",
+    "type": "single",
+    "choices": [
+      { "choice": "FAILURE", "isCorrect": false },
+      { "choice": "NOT_UNDERSTOOD", "isCorrect": false },
+      { "choice": "REFUSE", "isCorrect": true },
+      { "choice": "CANCEL", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Un agent reçoit un message mais ne sait pas comment analyser le contenu. Quelle performative doit-il renvoyer ?",
+    "type": "single",
+    "choices": [
+      { "choice": "DISCONFIRM", "isCorrect": false },
+      { "choice": "NOT_UNDERSTOOD", "isCorrect": true },
+      { "choice": "INFORM", "isCorrect": false },
+      { "choice": "UNKNOWN", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Lesquelles des performatives suivantes sont valides en FIPA-ACL ?",
+    "type": "multiple",
+    "choices": [
+      { "choice": "PROPOSE", "isCorrect": true },
+      { "choice": "REQUEST", "isCorrect": true },
+      { "choice": "CALL_METHOD", "isCorrect": false },
+      { "choice": "CFP (Call For Proposal)", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Pour déplacer un agent vers un autre conteneur, quelle méthode est appelée ?",
+    "type": "single",
+    "choices": [
+      { "choice": "move()", "isCorrect": false },
+      { "choice": "doMove()", "isCorrect": true },
+      { "choice": "migrate()", "isCorrect": false },
+      { "choice": "transfer()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Qu'est-ce qui est stocké dans l'objet Location requis pour la migration dans JADE ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Les coordonnées GPS du serveur", "isCorrect": false },
+      { "choice": "Le nom du conteneur/plateforme de destination", "isCorrect": true },
+      { "choice": "L'adresse IP et le port de destination", "isCorrect": false },
+      { "choice": "L'adresse mémoire de l'agent", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quel est le rôle du Directory Facilitator (DF) dans JADE ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Gérer le cycle de vie physique des agents", "isCorrect": false },
+      { "choice": "Fournir les 'Pages Jaunes' pour la découverte de services", "isCorrect": true },
+      { "choice": "Router les messages entre différentes plateformes", "isCorrect": false },
+      { "choice": "Déboguer les comportements des agents", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Avant qu'un agent puisse être 'recherché' par d'autres selon ses services, il doit :",
+    "type": "single",
+    "choices": [
+      { "choice": "S'enregistrer auprès de l'AMS", "isCorrect": false },
+      { "choice": "S'enregistrer auprès du DF", "isCorrect": true },
+      { "choice": "Ouvrir un Socket", "isCorrect": false },
+      { "choice": "Être à l'état 'Waiting'", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelle est l'exigence pour qu'un objet soit envoyé lors de la migration d'un agent JADE ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Il doit être une String", "isCorrect": false },
+      { "choice": "Il doit implémenter l'interface java.io.Serializable", "isCorrect": true },
+      { "choice": "Il doit être une variable statique", "isCorrect": false },
+      { "choice": "Il doit être marqué comme transient", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans le protocole FIPA-Contract-Net, quel est le premier message envoyé par l'initiateur ?",
+    "type": "single",
+    "choices": [
+      { "choice": "PROPOSE", "isCorrect": false },
+      { "choice": "CFP", "isCorrect": true },
+      { "choice": "ACCEPT_PROPOSAL", "isCorrect": false },
+      { "choice": "INFORM", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quel outil graphique JADE permet d'envoyer de 'faux' messages pour tester un agent ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Sniffer", "isCorrect": false },
+      { "choice": "Introspector", "isCorrect": false },
+      { "choice": "DummyAgent", "isCorrect": true },
+      { "choice": "RMA", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Un FSMBehaviour (Machine à États Finis) permet à un agent de :",
+    "type": "single",
+    "choices": [
+      { "choice": "Exécuter des comportements dans un ordre aléatoire", "isCorrect": false },
+      { "choice": "Créer un flux complexe où le comportement suivant dépend du résultat du précédent", "isCorrect": true },
+      { "choice": "Lancer des comportements sur plusieurs PC simultanément", "isCorrect": false },
+      { "choice": "Exécuter uniquement des comportements sans état", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Qu'est-ce que le 'Main Container' dans une plateforme JADE ?",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Le premier conteneur démarré sur la plateforme", "isCorrect": true },
+      { "choice": "Le seul conteneur autorisé à héberger des agents", "isCorrect": false },
+      { "choice": "Le conteneur où résident l'AMS et le DF par défaut", "isCorrect": true },
+      { "choice": "Le conteneur qui coordonne le registre RMI", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Quel est le but d'une 'Ontologie' dans les SMA ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Chiffrer les messages pour la sécurité", "isCorrect": false },
+      { "choice": "Fournir un vocabulaire et une sémantique partagés pour les messages", "isCorrect": true },
+      { "choice": "Accélérer le transfert réseau", "isCorrect": false },
+      { "choice": "Stocker l'historique de l'agent", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quelle méthode est appelée dans une classe Behaviour à chaque cycle d'exécution de l'agent ?",
+    "type": "single",
+    "choices": [
+      { "choice": "run()", "isCorrect": false },
+      { "choice": "action()", "isCorrect": true },
+      { "choice": "execute()", "isCorrect": false },
+      { "choice": "start()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Si un agent veut trouver TOUS les agents offrant le service 'météo', il doit :",
+    "type": "single",
+    "choices": [
+      { "choice": "Demander à l'AMS la liste de tous les agents", "isCorrect": false },
+      { "choice": "Interroger le DF avec un template décrivant le service", "isCorrect": true },
+      { "choice": "Diffuser un message (broadcast) à tous les conteneurs", "isCorrect": false },
+      { "choice": "Vérifier sa propre base de données interne", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Qu'est-ce qui décrit le mieux un SMA comparé à un Système Distribué classique ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Un SMA est toujours plus rapide", "isCorrect": false },
+      { "choice": "Les composants (agents) sont autonomes et peuvent refuser des requêtes", "isCorrect": true },
+      { "choice": "Un SMA n'utilise pas le réseau", "isCorrect": false },
+      { "choice": "Un SMA est réservé aux téléphones mobiles", "isCorrect": false }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "question": "L'intention décrit :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "des exemples de produits d'activités", "isCorrect": false },
+      { "choice": "les références aux domaines de processus apparentés", "isCorrect": false },
+      { "choice": "les concepts couverts par le domaine de processus", "isCorrect": false },
+      { "choice": "la finalité du domaine de processus", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Les objectifs génériques décrivent :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "les activités attendues qui permettent de satisfaire aux objectifs mis en œuvre dans un domaine de processus", "isCorrect": false },
+      { "choice": "les caractéristiques qui doivent être présentes pour institutionnaliser les processus mis en œuvre dans un domaine de processus", "isCorrect": true },
+      { "choice": "les descriptions détaillées qui fournissent des conseils pour interpréter un domaine de processus", "isCorrect": false },
+      { "choice": "les pointeurs vers des informations additionnelles plus détaillées présentes dans des domaines de processus connexes", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Les Objectifs spécifiques sont des composantes :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Informatives", "isCorrect": false },
+      { "choice": "Requises", "isCorrect": true },
+      { "choice": "Attendues", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Un niveau de maturité (maturity level) correspond à :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "L’implémentation des pratiques spécifiques pour un seul domaine de processus", "isCorrect": false },
+      { "choice": "L’implémentation des objectifs spécifiques pour un seul domaine de processus", "isCorrect": false },
+      { "choice": "L’atteinte d'un niveau de capabilité uniforme pour un groupe de processus", "isCorrect": true },
+      { "choice": "L’atteinte des objectifs d'un processus pour le niveau donné", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Atteindre le niveau de maturité « géré quantitativement », pour une entreprise, signifie que la structure :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "fonctionne au niveau projet", "isCorrect": false },
+      { "choice": "dispose d'un référentiel de statistiques pour construire et piloter les projets", "isCorrect": true },
+      { "choice": "est gérée par le phénomène du « héros »", "isCorrect": false },
+      { "choice": "fonctionne au niveau organisationnel", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Dans la représentation continue, le domaine de processus « Gestion des exigences » fait partie de la catégorie :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Process Management", "isCorrect": false },
+      { "choice": "Support", "isCorrect": false },
+      { "choice": "Project Management", "isCorrect": true },
+      { "choice": "Engineering", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Sélectionner les PAs de support dans la représentation continue :",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Développement des exigences", "isCorrect": false },
+      { "choice": "Vérification", "isCorrect": false },
+      { "choice": "Planification de projet", "isCorrect": false },
+      { "choice": "Mesure et analyse", "isCorrect": true },
+      { "choice": "Gestion de configuration", "isCorrect": true },
+      { "choice": "Formation Organisationnelle", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Identifier le PA à l'aide de la définition : Je suis en charge d'identifier les causes des défauts et des autres problèmes et de faire en sorte de prévenir leur récurrence dans le futur.",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Analyse causale et résolution 'CAR'", "isCorrect": true },
+      { "choice": "Analyse et prise de décision 'DAR'", "isCorrect": false },
+      { "choice": "Intégration de Produit 'PI'", "isCorrect": false },
+      { "choice": "Solution technique 'TS'", "isCorrect": false }
+    ]
+  }
+]

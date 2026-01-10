@@ -1,0 +1,32 @@
+[
+    {
+        "id": "strategies-digitales",
+        "title": "Développement des Stratégies Digitales",
+        "file": "dev-strategies-digitales.json"
+    },
+    {
+        "id": "architecture-entreprise",
+        "title": "Architecture d’entreprise",
+        "file": "archi-entreprise.json"
+    },
+    {
+        "id": "sma-mobiles",
+        "title": "Systèmes multi-agents mobiles",
+        "file": "sma-questions.json"
+    },
+    {
+        "id": "gestion-projets-si",
+        "title": "Aspects avancés de la gestion de projets SI",
+        "file": "aspect-avance-gestion-projet.json"
+    },
+    {
+        "id": "audit-urbanisation",
+        "title": "Audit, Urbanisation et Planification stratégique des SI",
+        "file": "audit-urbanisation.json"
+    },
+    {
+        "id": "referentiels-si",
+        "title": "Référentiels et bonnes pratiques des SI",
+        "file": "cmmi-ref-bon-pratiques.json"
+    }
+]
