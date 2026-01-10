@@ -3,522 +3,628 @@
     "question": "COBIT est un cadre de gouvernance informatique. Que signifie l'acronyme COBIT?",
     "type": "single",
     "choices": [
-      { "choice": "Control Objectives for IT", "isCorrect": false },
-      { "choice": "Control Objectives for Information and Related Technology", "isCorrect": true },
-      { "choice": "Compliance Objectives for IT", "isCorrect": false },
-      { "choice": "Certified Objectives for Business and IT", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Quelle est la principale finalité d'ITIL?",
-    "type": "single",
-    "choices": [
-      { "choice": "Gérer les actifs informatiques d'une entreprise", "isCorrect": false },
-      { "choice": "Optimiser la gestion des processus métier", "isCorrect": false },
-      { "choice": "Aligner les services informatiques sur les besoins métier", "isCorrect": true },
-      { "choice": "Évaluer la maturité des processus organisationnels", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Dans le modèle CMMI, que représente le niveau 3 (Defined)?",
-    "type": "single",
-    "choices": [
-      { "choice": "Les processus sont improvises et réactifs", "isCorrect": false },
-      { "choice": "Les processus sont documentés, standardisés et suivis", "isCorrect": true },
-      { "choice": "Les processus sont gérés de manière quantitative", "isCorrect": false },
-      { "choice": "Les processus sont optimisés en continu", "isCorrect": false }
+      {
+        "choice": "Control Objectives for IT",
+        "isCorrect": false
+      },
+      {
+        "choice": "Control Objectives for Information and Related Technology",
+        "isCorrect": true
+      },
+      {
+        "choice": "Compliance Objectives for IT",
+        "isCorrect": false
+      },
+      {
+        "choice": "Certified Objectives for Business and IT",
+        "isCorrect": false
+      }
     ]
   },
   {
     "question": "Dans ITIL, lequel des éléments suivants fait partie du cycle de vie des services?",
     "type": "single",
     "choices": [
-      { "choice": "Gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Amélioration continue des services", "isCorrect": true },
-      { "choice": "Conception des produits", "isCorrect": false },
-      { "choice": "Évaluation des investissements", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Quel rôle joue COBIT dans une organisation?",
-    "type": "single",
-    "choices": [
-      { "choice": "Optimiser la gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Gérer les relations avec les parties prenantes", "isCorrect": false },
-      { "choice": "Aligner les objectifs IT sur les objectifs stratégiques de l'entreprise", "isCorrect": true },
-      { "choice": "Développer des logiciels pour le département IT", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "La maturité des architectures d'entreprises dans les organisations :",
-    "type": "multiple",
-    "choices": [
-      { "choice": "dépend de l'architecture d'entreprise que nous utilisons", "isCorrect": true },
-      { "choice": "dépend du l'utilisation ou pas d'une architecture d'entreprise.", "isCorrect": true },
-      { "choice": "suit elle même une démarche As-Is/To-Be", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Si on se base sur le Framework Zachman, Togaf permetterait de répondre au besoin des colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "Why et How", "isCorrect": false },
-      { "choice": "How et What", "isCorrect": true },
-      { "choice": "Why et What", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le framework Zachman est considéré comme le premier framework d'architecture d'entreprise.",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le Framework Zachman est composé de 6 lignes et 6 colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "extensible: on peut ajouter des lignes et des colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des lignes mais pas de colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des colonnes mais pas de lignes", "isCorrect": false },
-      { "choice": "aucune extension possible", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Le framework Zachman a été utilisé dès sa création pour l'urbanisation des Systèmes d'Information :",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "COBIT est un cadre de gouvernance informatique. Que signifie l'acronyme COBIT?",
-    "type": "single",
-    "choices": [
-      { "choice": "Control Objectives for IT", "isCorrect": false },
-      { "choice": "Control Objectives for Information and Related Technology", "isCorrect": true },
-      { "choice": "Compliance Objectives for IT", "isCorrect": false },
-      { "choice": "Certified Objectives for Business and IT", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Quelle est la principale finalité d'ITIL?",
-    "type": "single",
-    "choices": [
-      { "choice": "Gérer les actifs informatiques d'une entreprise", "isCorrect": false },
-      { "choice": "Optimiser la gestion des processus métier", "isCorrect": false },
-      { "choice": "Aligner les services informatiques sur les besoins métier", "isCorrect": true },
-      { "choice": "Évaluer la maturité des processus organisationnels", "isCorrect": false }
+      {
+        "choice": "Gestion des ressources humaines",
+        "isCorrect": false
+      },
+      {
+        "choice": "Amélioration continue des services",
+        "isCorrect": true
+      },
+      {
+        "choice": "Conception des produits",
+        "isCorrect": false
+      },
+      {
+        "choice": "Évaluation des investissements",
+        "isCorrect": false
+      }
     ]
   },
   {
     "question": "Dans le modèle CMMI, que représente le niveau 3 (Defined)?",
     "type": "single",
     "choices": [
-      { "choice": "Les processus sont improvises et réactifs", "isCorrect": false },
-      { "choice": "Les processus sont documentés, standardisés et suivis", "isCorrect": true },
-      { "choice": "Les processus sont gérés de manière quantitative", "isCorrect": false },
-      { "choice": "Les processus sont optimisés en continu", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Dans ITIL, lequel des éléments suivants fait partie du cycle de vie des services?",
-    "type": "single",
-    "choices": [
-      { "choice": "Gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Amélioration continue des services", "isCorrect": true },
-      { "choice": "Conception des produits", "isCorrect": false },
-      { "choice": "Évaluation des investissements", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Quel rôle joue COBIT dans une organisation?",
-    "type": "single",
-    "choices": [
-      { "choice": "Optimiser la gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Gérer les relations avec les parties prenantes", "isCorrect": false },
-      { "choice": "Aligner les objectifs IT sur les objectifs stratégiques de l'entreprise", "isCorrect": true },
-      { "choice": "Développer des logiciels pour le département IT", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "La maturité des architectures d'entreprises dans les organisations :",
-    "type": "multiple",
-    "choices": [
-      { "choice": "dépend de l'architecture d'entreprise que nous utilisons", "isCorrect": true },
-      { "choice": "dépend du l'utilisation ou pas d'une architecture d'entreprise.", "isCorrect": true },
-      { "choice": "suit elle même une démarche As-Is/To-Be", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Si on se base sur le Framework Zachman, Togaf permetterait de répondre au besoin des colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "Why et How", "isCorrect": false },
-      { "choice": "How et What", "isCorrect": true },
-      { "choice": "Why et What", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le framework Zachman est considéré comme le premier framework d'architecture d'entreprise.",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
+      {
+        "choice": "Les processus sont improvises et réactifs",
+        "isCorrect": false
+      },
+      {
+        "choice": "Les processus sont documentés, standardisés et suivis",
+        "isCorrect": true
+      },
+      {
+        "choice": "Les processus sont gérés de manière quantitative",
+        "isCorrect": false
+      },
+      {
+        "choice": "Les processus sont optimisés en continu",
+        "isCorrect": false
+      }
     ]
   },
   {
     "question": "La démarche urbanisation des systèmes d'information, en comparaison aux autres framework et démarche (Zachman et Togaf par exemple), on se rend compte que :",
     "type": "single",
     "choices": [
-      { "choice": "ils sont complémentaires", "isCorrect": true },
-      { "choice": "ils sont opposés", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le Framework Zachman est composé de 6 lignes et 6 colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "extensible: on peut ajouter des lignes et des colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des lignes mais pas de colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des colonnes mais pas de lignes", "isCorrect": false },
-      { "choice": "aucune extension possible", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Le framework Zachman a été utilisé dès sa création pour l'urbanisation des Systèmes d'Information :",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "COBIT est un cadre de gouvernance informatique. Que signifie l'acronyme COBIT?",
-    "type": "single",
-    "choices": [
-      { "choice": "Control Objectives for IT", "isCorrect": false },
-      { "choice": "Control Objectives for Information and Related Technology", "isCorrect": true },
-      { "choice": "Compliance Objectives for IT", "isCorrect": false },
-      { "choice": "Certified Objectives for Business and IT", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Quelle est la principale finalité d'ITIL?",
-    "type": "single",
-    "choices": [
-      { "choice": "Gérer les actifs informatiques d'une entreprise", "isCorrect": false },
-      { "choice": "Optimiser la gestion des processus métier", "isCorrect": false },
-      { "choice": "Aligner les services informatiques sur les besoins métier", "isCorrect": true },
-      { "choice": "Évaluer la maturité des processus organisationnels", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Dans le modèle CMMI, que représente le niveau 3 (Defined)?",
-    "type": "single",
-    "choices": [
-      { "choice": "Les processus sont improvises et réactifs", "isCorrect": false },
-      { "choice": "Les processus sont documentés, standardisés et suivis", "isCorrect": true },
-      { "choice": "Les processus sont gérés de manière quantitative", "isCorrect": false },
-      { "choice": "Les processus sont optimisés en continu", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Dans ITIL, lequel des éléments suivants fait partie du cycle de vie des services?",
-    "type": "single",
-    "choices": [
-      { "choice": "Gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Amélioration continue des services", "isCorrect": true },
-      { "choice": "Conception des produits", "isCorrect": false },
-      { "choice": "Évaluation des investissements", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Quel rôle joue COBIT dans une organisation?",
-    "type": "single",
-    "choices": [
-      { "choice": "Optimiser la gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Gérer les relations avec les parties prenantes", "isCorrect": false },
-      { "choice": "Aligner les objectifs IT sur les objectifs stratégiques de l'entreprise", "isCorrect": true },
-      { "choice": "Développer des logiciels pour le département IT", "isCorrect": false }
+      {
+        "choice": "ils sont complémentaires",
+        "isCorrect": true
+      },
+      {
+        "choice": "ils sont opposés",
+        "isCorrect": false
+      }
     ]
   },
   {
     "question": "La maturité des architectures d'entreprises dans les organisations :",
     "type": "multiple",
     "choices": [
-      { "choice": "dépend de l'architecture d'entreprise que nous utilisons", "isCorrect": true },
-      { "choice": "dépend du l'utilisation ou pas d'une architecture d'entreprise.", "isCorrect": true },
-      { "choice": "suit elle même une démarche As-Is/To-Be", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Si on se base sur le Framework Zachman, Togaf permetterait de répondre au besoin des colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "Why et How", "isCorrect": false },
-      { "choice": "How et What", "isCorrect": true },
-      { "choice": "Why et What", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le framework Zachman est considéré comme le premier framework d'architecture d'entreprise.",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "La démarche urbanisation des systèmes d'information, en comparaison aux autres framework et démarche (Zachman et Togaf par exemple), on se rend compte que :",
-    "type": "single",
-    "choices": [
-      { "choice": "ils sont complémentaires", "isCorrect": true },
-      { "choice": "ils sont opposés", "isCorrect": false }
+      {
+        "choice": "dépend de l'architecture d'entreprise que nous utilisons",
+        "isCorrect": true
+      },
+      {
+        "choice": "dépend du l'utilisation ou pas d'une architecture d'entreprise.",
+        "isCorrect": true
+      },
+      {
+        "choice": "suit elle même une démarche As-Is/To-Be",
+        "isCorrect": true
+      }
     ]
   },
   {
     "question": "Le Framework Zachman est composé de 6 lignes et 6 colonnes :",
     "type": "single",
     "choices": [
-      { "choice": "extensible: on peut ajouter des lignes et des colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des lignes mais pas de colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des colonnes mais pas de lignes", "isCorrect": false },
-      { "choice": "aucune extension possible", "isCorrect": true }
+      {
+        "choice": "extensible: on peut ajouter des lignes et des colonnes",
+        "isCorrect": false
+      },
+      {
+        "choice": "extensible: on peut ajouter des lignes mais pas de colonnes",
+        "isCorrect": false
+      },
+      {
+        "choice": "extensible: on peut ajouter des colonnes mais pas de lignes",
+        "isCorrect": false
+      },
+      {
+        "choice": "aucune extension possible",
+        "isCorrect": true
+      }
     ]
   },
   {
     "question": "Le framework Zachman a été utilisé dès sa création pour l'urbanisation des Systèmes d'Information :",
     "type": "single",
     "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
+      {
+        "choice": "Vrai",
+        "isCorrect": true
+      },
+      {
+        "choice": "Faux",
+        "isCorrect": false
+      }
     ]
   },
   {
-    "question": "COBIT est un cadre de gouvernance informatique. Que signifie l'acronyme COBIT?",
+    "question": "Le framework Zachman est considéré comme le premier framework d'architecture d'entreprise.",
     "type": "single",
     "choices": [
-      { "choice": "Control Objectives for IT", "isCorrect": false },
-      { "choice": "Control Objectives for Information and Related Technology", "isCorrect": true },
-      { "choice": "Compliance Objectives for IT", "isCorrect": false },
-      { "choice": "Certified Objectives for Business and IT", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Quelle est la principale finalité d'ITIL?",
-    "type": "single",
-    "choices": [
-      { "choice": "Gérer les actifs informatiques d'une entreprise", "isCorrect": false },
-      { "choice": "Optimiser la gestion des processus métier", "isCorrect": false },
-      { "choice": "Aligner les services informatiques sur les besoins métier", "isCorrect": true },
-      { "choice": "Évaluer la maturité des processus organisationnels", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Dans le modèle CMMI, que représente le niveau 3 (Defined)?",
-    "type": "single",
-    "choices": [
-      { "choice": "Les processus sont improvises et réactifs", "isCorrect": false },
-      { "choice": "Les processus sont documentés, standardisés et suivis", "isCorrect": true },
-      { "choice": "Les processus sont gérés de manière quantitative", "isCorrect": false },
-      { "choice": "Les processus sont optimisés en continu", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Dans ITIL, lequel des éléments suivants fait partie du cycle de vie des services?",
-    "type": "single",
-    "choices": [
-      { "choice": "Gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Amélioration continue des services", "isCorrect": true },
-      { "choice": "Conception des produits", "isCorrect": false },
-      { "choice": "Évaluation des investissements", "isCorrect": false }
+      {
+        "choice": "Vrai",
+        "isCorrect": true
+      },
+      {
+        "choice": "Faux",
+        "isCorrect": false
+      }
     ]
   },
   {
     "question": "Quel rôle joue COBIT dans une organisation?",
     "type": "single",
     "choices": [
-      { "choice": "Optimiser la gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Gérer les relations avec les parties prenantes", "isCorrect": false },
-      { "choice": "Aligner les objectifs IT sur les objectifs stratégiques de l'entreprise", "isCorrect": true },
-      { "choice": "Développer des logiciels pour le département IT", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "La maturité des architectures d'entreprises dans les organisations :",
-    "type": "multiple",
-    "choices": [
-      { "choice": "dépend de l'architecture d'entreprise que nous utilisons", "isCorrect": true },
-      { "choice": "dépend du l'utilisation ou pas d'une architecture d'entreprise.", "isCorrect": true },
-      { "choice": "suit elle même une démarche As-Is/To-Be", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Si on se base sur le Framework Zachman, Togaf permetterait de répondre au besoin des colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "Why et How", "isCorrect": false },
-      { "choice": "How et What", "isCorrect": true },
-      { "choice": "Why et What", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le framework Zachman est considéré comme le premier framework d'architecture d'entreprise.",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "La démarche urbanisation des systèmes d'information, en comparaison aux autres framework et démarche (Zachman et Togaf par exemple), on se rend compte que :",
-    "type": "single",
-    "choices": [
-      { "choice": "ils sont complémentaires", "isCorrect": true },
-      { "choice": "ils sont opposés", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le Framework Zachman est composé de 6 lignes et 6 colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "extensible: on peut ajouter des lignes et des colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des lignes mais pas de colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des colonnes mais pas de lignes", "isCorrect": false },
-      { "choice": "aucune extension possible", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Le framework Zachman a été utilisé dès sa création pour l'urbanisation des Systèmes d'Information :",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
+      {
+        "choice": "Optimiser la gestion des ressources humaines",
+        "isCorrect": false
+      },
+      {
+        "choice": "Gérer les relations avec les parties prenantes",
+        "isCorrect": false
+      },
+      {
+        "choice": "Aligner les objectifs IT sur les objectifs stratégiques de l'entreprise",
+        "isCorrect": true
+      },
+      {
+        "choice": "Développer des logiciels pour le département IT",
+        "isCorrect": false
+      }
     ]
   },
   {
     "question": "Quel énoncé décrit le mieux l'approche initiale pour établir une vision d'architecture selon le framework TOGAF?",
     "type": "single",
     "choices": [
-      { "choice": "Examine the relationship to other processes and conduct a study of the footprint.", "isCorrect": false },
-      { "choice": "Issue a request for architecture work and define a common systems architecture.", "isCorrect": false },
-      { "choice": "Ensure agreement on the scope, identify business drivers, and develop architecture principles.", "isCorrect": true },
-      { "choice": "Start by conducting an Architecture Maturity Assessment to assess ability to change.", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "COBIT est un cadre de gouvernance informatique. Que signifie l'acronyme COBIT?",
-    "type": "single",
-    "choices": [
-      { "choice": "Control Objectives for IT", "isCorrect": false },
-      { "choice": "Control Objectives for Information and Related Technology", "isCorrect": true },
-      { "choice": "Compliance Objectives for IT", "isCorrect": false },
-      { "choice": "Certified Objectives for Business and IT", "isCorrect": false }
+      {
+        "choice": "Examine the relationship to other processes and conduct a study of the footprint.",
+        "isCorrect": false
+      },
+      {
+        "choice": "Issue a request for architecture work and define a common systems architecture.",
+        "isCorrect": false
+      },
+      {
+        "choice": "Ensure agreement on the scope, identify business drivers, and develop architecture principles.",
+        "isCorrect": true
+      },
+      {
+        "choice": "Start by conducting an Architecture Maturity Assessment to assess ability to change.",
+        "isCorrect": false
+      }
     ]
   },
   {
     "question": "Quelle est la principale finalité d'ITIL?",
     "type": "single",
     "choices": [
-      { "choice": "Gérer les actifs informatiques d'une entreprise", "isCorrect": false },
-      { "choice": "Optimiser la gestion des processus métier", "isCorrect": false },
-      { "choice": "Aligner les services informatiques sur les besoins métier", "isCorrect": true },
-      { "choice": "Évaluer la maturité des processus organisationnels", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Dans le modèle CMMI, que représente le niveau 3 (Defined)?",
-    "type": "single",
-    "choices": [
-      { "choice": "Les processus sont improvises et réactifs", "isCorrect": false },
-      { "choice": "Les processus sont documentés, standardisés et suivis", "isCorrect": true },
-      { "choice": "Les processus sont gérés de manière quantitative", "isCorrect": false },
-      { "choice": "Les processus sont optimisés en continu", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Dans ITIL, lequel des éléments suivants fait partie du cycle de vie des services?",
-    "type": "single",
-    "choices": [
-      { "choice": "Gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Amélioration continue des services", "isCorrect": true },
-      { "choice": "Conception des produits", "isCorrect": false },
-      { "choice": "Évaluation des investissements", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Quel rôle joue COBIT dans une organisation?",
-    "type": "single",
-    "choices": [
-      { "choice": "Optimiser la gestion des ressources humaines", "isCorrect": false },
-      { "choice": "Gérer les relations avec les parties prenantes", "isCorrect": false },
-      { "choice": "Aligner les objectifs IT sur les objectifs stratégiques de l'entreprise", "isCorrect": true },
-      { "choice": "Développer des logiciels pour le département IT", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "La maturité des architectures d'entreprises dans les organisations :",
-    "type": "multiple",
-    "choices": [
-      { "choice": "dépend de l'architecture d'entreprise que nous utilisons", "isCorrect": true },
-      { "choice": "dépend du l'utilisation ou pas d'une architecture d'entreprise.", "isCorrect": true },
-      { "choice": "suit elle même une démarche As-Is/To-Be", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Si on se base sur le Framework Zachman, Togaf permetterait de répondre au besoin des colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "Why et How", "isCorrect": false },
-      { "choice": "How et What", "isCorrect": true },
-      { "choice": "Why et What", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le framework Zachman est considéré comme le premier framework d'architecture d'entreprise.",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "La démarche urbanisation des systèmes d'information, en comparaison aux autres framework et démarche (Zachman et Togaf par exemple), on se rend compte que :",
-    "type": "single",
-    "choices": [
-      { "choice": "ils sont complémentaires", "isCorrect": true },
-      { "choice": "ils sont opposés", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Le Framework Zachman est composé de 6 lignes et 6 colonnes :",
-    "type": "single",
-    "choices": [
-      { "choice": "extensible: on peut ajouter des lignes et des colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des lignes mais pas de colonnes", "isCorrect": false },
-      { "choice": "extensible: on peut ajouter des colonnes mais pas de lignes", "isCorrect": false },
-      { "choice": "aucune extension possible", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "Le framework Zachman a été utilisé dès sa création pour l'urbanisation des Systèmes d'Information :",
-    "type": "single",
-    "choices": [
-      { "choice": "Vrai", "isCorrect": true },
-      { "choice": "Faux", "isCorrect": false }
+      {
+        "choice": "Gérer les actifs informatiques d'une entreprise",
+        "isCorrect": false
+      },
+      {
+        "choice": "Optimiser la gestion des processus métier",
+        "isCorrect": false
+      },
+      {
+        "choice": "Aligner les services informatiques sur les besoins métier",
+        "isCorrect": true
+      },
+      {
+        "choice": "Évaluer la maturité des processus organisationnels",
+        "isCorrect": false
+      }
     ]
   },
   {
     "question": "Scenario: ... which of the following is the best initial approach to establish an architecture vision for this enterprise according to the TOGAF framework?",
     "type": "single",
     "choices": [
-      { "choice": "You examine the relationship to other processes... conduct a study to determine the footprint.", "isCorrect": false },
-      { "choice": "You issue a request for architecture work... define a common systems architecture.", "isCorrect": false },
-      { "choice": "You ensure that there is an agreement on the scope... identify the key business drivers... develop a set of architecture principles.", "isCorrect": true },
-      { "choice": "You start by conducting an Architecture Maturity Assessment to assess the ability of the organization to undergo change.", "isCorrect": false }
+      {
+        "choice": "You examine the relationship to other processes... conduct a study to determine the footprint.",
+        "isCorrect": false
+      },
+      {
+        "choice": "You issue a request for architecture work... define a common systems architecture.",
+        "isCorrect": false
+      },
+      {
+        "choice": "You ensure that there is an agreement on the scope... identify the key business drivers... develop a set of architecture principles.",
+        "isCorrect": true
+      },
+      {
+        "choice": "You start by conducting an Architecture Maturity Assessment to assess the ability of the organization to undergo change.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Si on se base sur le Framework Zachman, Togaf permetterait de répondre au besoin des colonnes :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Why et How",
+        "isCorrect": false
+      },
+      {
+        "choice": "How et What",
+        "isCorrect": true
+      },
+      {
+        "choice": "Why et What",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Votre entreprise perd des parts de marché depuis 2 ans sur son produit phare, un logiciel industriel. Elle souhaite fidéliser ses clients existants et en capter de nouveaux. Le CODIR a validé la mise en place d'une stratégie 'Le client d'abord'. Au niveau de la DSI, quelle cascade d'objectifs vous semble la plus pertinente ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Impliquer la DSI à l'acte de vente – Former les collaborateurs de la DSI aux techniques commerciales",
+        "isCorrect": false
+      },
+      {
+        "choice": "Faciliter la traçabilité des fournisseurs – mettre en place un système de notation des prestations externes",
+        "isCorrect": false
+      },
+      {
+        "choice": "Améliorer la satisfaction client – réduire les temps de réponse du support client",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Qu'est-ce que la gouvernance d'un SI ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Une organisation pyramidale qui régit les choix techniques à prendre pour les années à venir.",
+        "isCorrect": false
+      },
+      {
+        "choice": "Une démarche structurée qui permet de piloter les évolutions de la DSI au sein de l'entreprise.",
+        "isCorrect": true
+      },
+      {
+        "choice": "Une méthodologie qui permet de suivre pas à pas les KPI du département.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Vous intégrez une DSI en tant que chef de projet IT senior ; une de vos missions est d'harmoniser la méthodologie sur la sécurité des données dans l'ensemble des projets de la DSI. Quelle est, dans la liste d'actions ci-dessous, celle que vous pouvez proposer ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Mettre en place la méthode Kanban",
+        "isCorrect": false
+      },
+      {
+        "choice": "Mettre en place la démarche Agile",
+        "isCorrect": false
+      },
+      {
+        "choice": "Mettre en place la norme ISO 27001",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Vous êtes en train de mettre en place le référentiel COBIT au sein de votre DSI. Travail de longue haleine, vos équipes sont sollicitées sur ce projet depuis de nombreux mois. Des tensions sont palpables au sein de l'équipe, et des voix commencent à s'élever pour critiquer ce grand chambardement. Que faites-vous ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Vous décidez de mettre un coup d'accélérateur au projet et vous encouragez avec fermeté les membres de la DSI à se mobiliser autour de ce projet.",
+        "isCorrect": false
+      },
+      {
+        "choice": "Vous décidez de prendre 1 heure à la prochaine réunion d'équipe pour exposer les objectifs du projet COBIT et les attentes du CODIR, et également détailler les impacts de la stratégie de l'entreprise au niveau de la DSI.",
+        "isCorrect": true
+      },
+      {
+        "choice": "Vous remontez l'information au CODIR, dans un souci de transparence, et attendez leur retour.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Parmi les méthodologies suivantes, quelles sont celles qui facilitent la mise en œuvre de la gouvernance de votre SI ?",
+    "type": "multiple",
+    "choices": [
+      {
+        "choice": "COBIT",
+        "isCorrect": true
+      },
+      {
+        "choice": "Prince 2",
+        "isCorrect": true
+      },
+      {
+        "choice": "CMMI",
+        "isCorrect": false
+      },
+      {
+        "choice": "PMMI",
+        "isCorrect": false
+      },
+      {
+        "choice": "ITIL",
+        "isCorrect": true
+      },
+      {
+        "choice": "SCRUM",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "A quoi servent les principes directeurs ITIL ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Pour aider une organisation à prendre de bonnes décisions",
+        "isCorrect": true
+      },
+      {
+        "choice": "Diriger et contrôler une organisation",
+        "isCorrect": false
+      },
+      {
+        "choice": "Identifier les activités qu'une organisation doit effectuer afin de fournir un service de valeur",
+        "isCorrect": false
+      },
+      {
+        "choice": "Veiller à ce que la performance d'une organisation réponde en permanence aux attentes des parties prenantes",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quelles sont les compétences les plus importantes requises par le personnel du Service Desk ? (ITIL)",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Compétences en analyse d'incidents",
+        "isCorrect": false
+      },
+      {
+        "choice": "Compétences techniques",
+        "isCorrect": false
+      },
+      {
+        "choice": "Compétences en résolution de problèmes",
+        "isCorrect": true
+      },
+      {
+        "choice": "Compétences en gestion des fournisseurs",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Selon le référentiel ITIL : Un service n’est pas très fiable, mais quand il fonctionne, il apporte une grande valeur aux utilisateurs. Cette combinaison peut être décrite comme :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Une haute utilité et une faible garantie",
+        "isCorrect": true
+      },
+      {
+        "choice": "Une haute utilité et une haute garantie",
+        "isCorrect": false
+      },
+      {
+        "choice": "Une faible utilité et une haute garantie",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "La gestion des incidents de sécurité de l'information nécessite généralement :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Escalade immédiate",
+        "isCorrect": false
+      },
+      {
+        "choice": "Des équipes spécialisées",
+        "isCorrect": true
+      },
+      {
+        "choice": "Un processus séparé",
+        "isCorrect": false
+      },
+      {
+        "choice": "Assistance tierce",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quel référentiel est principalement associé à l'amélioration de l'exploitation des services IT ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "COBIT",
+        "isCorrect": true
+      },
+      {
+        "choice": "ITIL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quel référentiel est principalement associé à l'alignement des objectifs Informatiques avec les objectifs stratégiques ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "COBIT",
+        "isCorrect": false
+      },
+      {
+        "choice": "ITIL",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Quel référentiel permet la mise en cohérence des ressources Informatiques et les processus informatiques ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "COBIT",
+        "isCorrect": false
+      },
+      {
+        "choice": "ITIL",
+        "isCorrect": false
+      },
+      {
+        "choice": "Les deux",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Guidelines pour la planification de la migration vers la cible et le change management :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Zachman",
+        "isCorrect": false
+      },
+      {
+        "choice": "Togaf",
+        "isCorrect": false
+      },
+      {
+        "choice": "Urba",
+        "isCorrect": false
+      },
+      {
+        "choice": "Aucun",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Framework graphique s’appuyant sur une matrice :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Zachman",
+        "isCorrect": true
+      },
+      {
+        "choice": "Togaf",
+        "isCorrect": false
+      },
+      {
+        "choice": "Urba",
+        "isCorrect": false
+      },
+      {
+        "choice": "Aucun",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Le but est d’aligner les exigences de la stratégie dans l’ensemble des processus de l’entreprise :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Zachman",
+        "isCorrect": false
+      },
+      {
+        "choice": "Togaf",
+        "isCorrect": false
+      },
+      {
+        "choice": "Urba",
+        "isCorrect": true
+      },
+      {
+        "choice": "Aucun",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Prend en compte les 4 niveaux d’abstraction : métier, fonctionnel, applicatif et technique :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Zachman",
+        "isCorrect": false
+      },
+      {
+        "choice": "Togaf",
+        "isCorrect": false
+      },
+      {
+        "choice": "Urba",
+        "isCorrect": true
+      },
+      {
+        "choice": "Aucun",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quelle méthodologie propose une description simplifiée des actions à réaliser ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Démarche Urbanisation",
+        "isCorrect": true
+      },
+      {
+        "choice": "Zachman",
+        "isCorrect": false
+      },
+      {
+        "choice": "Togaf",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quelle méthodologie utilise un Méta-Modèle très exhaustif mais non formalisé ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Démarche Urbanisation",
+        "isCorrect": false
+      },
+      {
+        "choice": "Zachman",
+        "isCorrect": true
+      },
+      {
+        "choice": "Togaf",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quelle méthodologie possède un Métamodèle formalisé ?",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Démarche Urbanisation",
+        "isCorrect": false
+      },
+      {
+        "choice": "Zachman",
+        "isCorrect": false
+      },
+      {
+        "choice": "Togaf",
+        "isCorrect": true
+      }
     ]
   }
 ]
