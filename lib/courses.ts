@@ -7,6 +7,17 @@ export function getAllCourses(): Course[] {
         const filePath = path.join(process.cwd(), "public", "data", "courses.json");
         const fileContent = fs.readFileSync(filePath, "utf-8");
         const rawCourses = JSON.parse(fileContent);
+
+        // Read exams.json
+        const examsPath = path.join(process.cwd(), "exams.json");
+        let examsData: any[] = [];
+        try {
+            const examsContent = fs.readFileSync(examsPath, "utf-8");
+            examsData = JSON.parse(examsContent);
+        } catch (e) {
+            console.error("Error reading exams.json", e);
+        }
+
         return rawCourses.map((c: any) => {
             const questionFilePath = path.join(process.cwd(), "public", "data", c.file);
             let count = 0;
@@ -18,6 +29,8 @@ export function getAllCourses(): Course[] {
                 console.error(`Error counting questions for ${c.id}:`, e);
             }
 
+            const exam = examsData.find((e: any) => e.id === c.id);
+
             return {
                 id: c.id,
                 title: c.title,
@@ -25,6 +38,11 @@ export function getAllCourses(): Course[] {
                 questionFile: "/data/" + c.file,
                 color: "bg-primary/10 text-primary border-primary/20", // Default color
                 questionCount: count,
+                professor: exam?.professor,
+                time: exam?.time,
+                mode: exam?.mode,
+                date: exam?.date,
+                room: exam?.room,
             };
         });
     } catch (error) {

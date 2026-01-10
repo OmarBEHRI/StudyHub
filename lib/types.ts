@@ -5,4 +5,9 @@ export interface Course {
     questionFile: string;
     color: string;
     questionCount: number;
+    professor?: string;
+    time?: string;
+    mode?: string;
+    date?: string;
+    room?: string;
 }

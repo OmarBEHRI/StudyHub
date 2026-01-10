@@ -1,0 +1,92 @@
+[
+    {
+        "id": "strategies-digitales",
+        "code": "M.5.3.3",
+        "title": "Développement des Stratégies Digitales",
+        "professor": "Pr. S. Baina",
+        "time": "09h00",
+        "mode": "Plateforme",
+        "room": "L20, L21, L22 et L24",
+        "date": "12/01/2026"
+    },
+    {
+        "id": "architecture-entreprise",
+        "code": "M.5.3.2",
+        "title": "Architecture d’entreprise",
+        "professor": "Pr. S. Baina",
+        "time": "10h00",
+        "mode": "Plateforme",
+        "room": "L20, L21, L22 et L24",
+        "date": "12/01/2026"
+    },
+    {
+        "id": "sma-mobiles",
+        "code": "M.5.2.3",
+        "title": "Systèmes multi-agents mobiles",
+        "professor": "Mme Zineb Amri",
+        "time": "14h00",
+        "mode": "Papier",
+        "room": "A9",
+        "date": "12/01/2026"
+    },
+    {
+        "id": "gestion-projets-si",
+        "code": "M.5.5.2",
+        "title": "Aspects avancés de la gestion de projets SI",
+        "professor": "Pr. B. Bounabat",
+        "time": "09h00",
+        "mode": "Papier",
+        "room": "A9",
+        "date": "13/01/2026"
+    },
+    {
+        "id": "interface-homme-machine",
+        "code": "M.5.1.3",
+        "title": "Interface Homme/Machine",
+        "professor": "Pr. B. Berrada",
+        "time": "11h00",
+        "mode": "Moodle",
+        "room": "L20, L21, L22 et L24",
+        "date": "13/01/2026"
+    },
+    {
+        "id": "conferences-it-entreprise",
+        "code": "M.5.6.1",
+        "title": "Conférences : IT et Entreprise",
+        "professor": "Pr. K. Baina",
+        "time": "09h00",
+        "mode": "Plateforme",
+        "room": "L20, L21, L22 et L24",
+        "date": "15/01/2026"
+    },
+    {
+        "id": "audit-urbanisation",
+        "code": "M.5.3.1",
+        "title": "Audit, Urbanisation et Planification stratégique des SI",
+        "professor": "Pr. W. Ettazi",
+        "time": "14h00",
+        "mode": "Moodle",
+        "room": "L20, L21, L22 et L24",
+        "date": "15/01/2026"
+    },
+    {
+        "id": "intelligences-si",
+        "code": "M.5.4.3",
+        "title": "Intelligences et aspects avancés des SI",
+        "professor": "Dr. Z. Mcharfi",
+        "time": "09h00",
+        "mode": "Papier",
+        "room": "A9",
+        "date": "16/01/2026"
+    },
+    {
+        "id": "referentiels-si",
+        "code": "M.5.4.1",
+        "title": "Référentiels et bonnes pratiques des SI",
+        "professor": "Pr. H. Guermah",
+        "time": "11h00",
+        "mode": "Moodle",
+        "room": "L20, L21, L22 et L24",
+        "date": "16/01/2026"
+    }
+]
