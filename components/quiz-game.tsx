@@ -96,16 +96,37 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
         else if (percentage >= 50) message = "Pas mal, mais vous pouvez faire mieux.";
         else message = "Continuez à réviser !";
 
+        const getScoreColor = (pct: number) => {
+            if (pct < 25) return "red";
+            if (pct < 50) return "orange";
+            if (pct < 75) return "yellow";
+            return "green";
+        };
+
+        const scoreColor = getScoreColor(percentage);
+        const colorClasses = {
+            red: "text-red-500 border-red-500 bg-red-500/5",
+            orange: "text-orange-500 border-orange-500 bg-orange-500/5",
+            yellow: "text-yellow-600 border-yellow-500 bg-yellow-500/5",
+            green: "text-green-500 border-green-500 bg-green-500/5"
+        }[scoreColor];
+
         return (
             <div className="flex flex-col items-center justify-center min-h-[50vh] animate-in fade-in zoom-in duration-500">
                 <Card className="w-full max-w-2xl text-center p-8 border-primary/20 shadow-2xl bg-card/50 backdrop-blur">
                     <div className="mb-6 flex justify-center">
-                        <div className="relative flex items-center justify-center w-32 h-32 rounded-full border-4 border-primary bg-primary/5">
-                            <span className="text-4xl font-bold text-primary">{score}</span>
-                            <span className="absolute -bottom-2 text-xs font-medium uppercase tracking-wider bg-background px-2 text-muted-foreground">sur {questions.length}</span>
+                        <div className={cn("relative flex items-center justify-center w-32 h-32 rounded-full border-4 transition-colors duration-1000", colorClasses)}>
+                            <span className="text-4xl font-bold">{score}</span>
+                            <span className="absolute -bottom-2 text-xs font-medium uppercase tracking-wider bg-background px-2 text-muted-foreground whitespace-nowrap">sur {questions.length}</span>
                         </div>
                     </div>
-                    <h2 className="text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-orange-500">
+                    <h2 className={cn(
+                        "text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r",
+                        scoreColor === 'red' && "from-red-500 to-red-700",
+                        scoreColor === 'orange' && "from-orange-500 to-orange-700",
+                        scoreColor === 'yellow' && "from-yellow-500 to-yellow-700",
+                        scoreColor === 'green' && "from-green-500 to-green-700"
+                    )}>
                         Test Terminé
                     </h2>
                     <p className="text-xl text-muted-foreground mb-8">{message}</p>
@@ -199,10 +220,10 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
                                 cardClassName = "opacity-50";
                             }
                         } else if (isSelected) {
-                            // Selected before validation
-                            cardClassName = "bg-primary/10 border-primary shadow-sm";
-                            indicatorClassName = "border-primary bg-primary text-primary-foreground";
-                            textClassName = "font-medium text-primary";
+                            // Selected before validation - Use Orange instead of Primary (Red)
+                            cardClassName = "bg-orange-500/10 border-orange-500 shadow-sm";
+                            indicatorClassName = "border-orange-500 bg-orange-500 text-white";
+                            textClassName = "font-medium text-orange-600 dark:text-orange-400";
                         }
 
                         return (

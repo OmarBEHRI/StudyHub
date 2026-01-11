@@ -4,8 +4,8 @@
     "type": "multiple",
     "choices": [
       { "choice": "Rapprocher les traitements des données", "isCorrect": true },
-      { "choice": "Réduire le volume des échanges réseau", "isCorrect": true },
-      { "choice": "Equilibrer les charges entre les machines", "isCorrect": true },
+      { "choice": "Réduire le volume des échanges réseau", "isCorrect": false },
+      { "choice": "Equilibrer les charges entre les machines", "isCorrect": false },
       { "choice": "Mettre les traitements aux mêmes endroits", "isCorrect": true }
     ]
   },
@@ -51,9 +51,9 @@
     "question": "Les agents mobiles se distinguent des 'processus mobiles' au niveau :",
     "type": "multiple",
     "choices": [
-      { "choice": "Nombre de déplacement", "isCorrect": true },
+      { "choice": "Nombre de déplacement", "isCorrect": false },
       { "choice": "Le déplacement est décidé par l'agent (application) et non le système", "isCorrect": true },
-      { "choice": "Accéder aux ressources disponibles dans d'autres machines", "isCorrect": true },
+      { "choice": "Accéder aux ressources disponibles dans d'autres machines", "isCorrect": false },
       { "choice": "Supporter des opérations déconnectées", "isCorrect": true }
     ]
   },
@@ -114,10 +114,10 @@
     "question": "Dans JADE, quelles sont les méthodes statiques propres aux agents (et non aux comportements) ?",
     "type": "multiple",
     "choices": [
-      { "choice": "block()", "isCorrect": true },
+      { "choice": "block()", "isCorrect": false },
       { "choice": "onStart()", "isCorrect": false },
-      { "choice": "setup()", "isCorrect": false },
-      { "choice": "takeDown()", "isCorrect": false }
+      { "choice": "setup()", "isCorrect": true },
+      { "choice": "takeDown()", "isCorrect": true }
     ]
   },
   {
@@ -220,9 +220,9 @@
     "question": "Dans les systèmes d'agents basés sur Java, il est difficile d'implémenter la migration forte car :",
     "type": "single",
     "choices": [
-      { "choice": "Le problème est surtout lié à la sérialisation dans Java", "isCorrect": true },
+      { "choice": "Le problème est surtout lié à la sérialisation dans Java", "isCorrect": false },
       { "choice": "Java ne supporte pas l'exécution multi-threadée nécessaire", "isCorrect": false },
-      { "choice": "La JVM ne permet pas de capturer et de restaurer l'état de la pile d'exécution (stack)", "isCorrect": false },
+      { "choice": "La JVM ne permet pas de capturer et de restaurer l'état de la pile d'exécution (stack)", "isCorrect": true },
       { "choice": "Les agents Java sont trop volumineux pour être transférés sur le réseau", "isCorrect": false }
     ]
   },
