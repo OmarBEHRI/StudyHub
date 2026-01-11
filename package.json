@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check-questions": "npx tsx scripts/check-questions.ts",
+    "clean-questions": "npx tsx scripts/clean-questions.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.0.0",

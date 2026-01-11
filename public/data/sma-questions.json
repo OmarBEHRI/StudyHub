@@ -159,7 +159,10 @@
     "question": "Lorsqu'un agent JADE n'a pas de comportement à exécuter, il se trouve dans quel état ?",
     "type": "single",
     "choices": [
-      { "choice": "Waiting", "isCorrect": true }
+      { "choice": "Waiting", "isCorrect": true },
+      { "choice": "Active", "isCorrect": false },
+      { "choice": "Suspended", "isCorrect": false },
+      { "choice": "Deleted", "isCorrect": false }
     ]
   },
   {
@@ -217,7 +220,10 @@
     "question": "Dans les systèmes d'agents basés sur Java, il est difficile d'implémenter la migration forte car :",
     "type": "single",
     "choices": [
-      { "choice": "Le problème est surtout lié à la sérialisation dans Java", "isCorrect": true }
+      { "choice": "Le problème est surtout lié à la sérialisation dans Java", "isCorrect": true },
+      { "choice": "Java ne supporte pas l'exécution multi-threadée nécessaire", "isCorrect": false },
+      { "choice": "La JVM ne permet pas de capturer et de restaurer l'état de la pile d'exécution (stack)", "isCorrect": false },
+      { "choice": "Les agents Java sont trop volumineux pour être transférés sur le réseau", "isCorrect": false }
     ]
   },
   {
