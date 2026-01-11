@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { IconCheck, IconX, IconRefresh, IconArrowRight, IconBulb } from "@tabler/icons-react";
+import { useSound } from "./sound-provider";
 import { cn } from "@/lib/utils";
 
 interface Choice {
@@ -28,6 +29,7 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
     const [score, setScore] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
     const [hasValidated, setHasValidated] = useState(false);
+    const { playSound } = useSound();
 
     const currentQuestion = questions[currentIndex];
     const progress = ((currentIndex) / questions.length) * 100;
@@ -62,6 +64,9 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
 
         if (isCorrect) {
             setScore(prev => prev + 1);
+            playSound("correct");
+        } else {
+            playSound("wrong");
         }
     };
 

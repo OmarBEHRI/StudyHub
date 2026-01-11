@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
+import { SoundProvider } from "@/components/sound-provider";
+import { MuteToggle } from "@/components/mute-toggle";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -18,7 +20,10 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${inter.variable} font-sans antialiased bg-background text-foreground`}>
-        {children}
+        <SoundProvider>
+          {children}
+          <MuteToggle />
+        </SoundProvider>
         <Analytics />
       </body>
     </html>

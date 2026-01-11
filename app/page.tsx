@@ -18,7 +18,7 @@ export default function Home() {
                         StudyHub
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto font-medium leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-700 delay-150">
-                        The ultimate platform to master your medical exams with ease.
+                        All MCQ exams for ENSIAS 3A GL, in one place.
                     </p>
                 </div>
 
