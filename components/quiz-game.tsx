@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { IconCheck, IconX, IconRefresh, IconArrowRight, IconBulb } from "@tabler/icons-react";
 import { useSound } from "./sound-provider";
+import { useQuizSettings } from "./quiz-settings-provider";
 import { cn } from "@/lib/utils";
 
 interface Choice {
@@ -24,6 +25,7 @@ interface QuizGameProps {
 }
 
 export function QuizGame({ questions, courseTitle }: QuizGameProps) {
+    const { isRandomized } = useQuizSettings();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedIndices, setSelectedIndices] = useState<number[]>([]);
     const [score, setScore] = useState(0);
@@ -31,8 +33,25 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
     const [hasValidated, setHasValidated] = useState(false);
     const { playSound } = useSound();
 
-    const currentQuestion = questions[currentIndex];
-    const progress = ((currentIndex) / questions.length) * 100;
+    // Use useMemo to handle randomization so it doesn't reshuffle on every render
+    const displayQuestions = useMemo(() => {
+        let q = [...questions];
+        if (isRandomized) {
+            for (let i = q.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [q[i], q[j]] = [q[j], q[i]];
+            }
+        }
+        return q;
+    }, [isRandomized, questions]);
+
+    const currentQuestion = displayQuestions[currentIndex];
+    const progress = ((currentIndex) / displayQuestions.length) * 100;
+
+    // Reset when randomization changes
+    useEffect(() => {
+        restart();
+    }, [isRandomized, questions]);
 
     const handleOptionClick = (index: number) => {
         if (hasValidated) return; // Prevent changing answer after validation
@@ -71,7 +90,7 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
     };
 
     const handleNext = () => {
-        if (currentIndex < questions.length - 1) {
+        if (currentIndex < displayQuestions.length - 1) {
             setCurrentIndex(prev => prev + 1);
             setSelectedIndices([]);
             setHasValidated(false);
@@ -89,7 +108,7 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
     };
 
     if (isFinished) {
-        const percentage = Math.round((score / questions.length) * 100);
+        const percentage = Math.round((score / displayQuestions.length) * 100);
         let message = "";
         if (percentage === 100) message = "Parfait ! Vous maîtrisez le sujet.";
         else if (percentage >= 80) message = "Excellent travail !";
@@ -117,7 +136,7 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
                     <div className="mb-6 flex justify-center">
                         <div className={cn("relative flex items-center justify-center w-32 h-32 rounded-full border-4 transition-colors duration-1000", colorClasses)}>
                             <span className="text-4xl font-bold">{score}</span>
-                            <span className="absolute -bottom-2 text-xs font-medium uppercase tracking-wider bg-background px-2 text-muted-foreground whitespace-nowrap">sur {questions.length}</span>
+                            <span className="absolute -bottom-2 text-xs font-medium uppercase tracking-wider bg-background px-2 text-muted-foreground whitespace-nowrap">sur {displayQuestions.length}</span>
                         </div>
                     </div>
                     <h2 className={cn(
@@ -150,7 +169,7 @@ export function QuizGame({ questions, courseTitle }: QuizGameProps) {
                 <div className="flex justify-between items-end mb-2">
                     <h1 className="text-2xl font-bold text-foreground">{courseTitle}</h1>
                     <span className="text-muted-foreground font-mono">
-                        {currentIndex + 1} / {questions.length}
+                        {currentIndex + 1} / {displayQuestions.length}
                     </span>
                 </div>
                 <div className="h-2 w-full bg-secondary/30 rounded-full overflow-hidden">

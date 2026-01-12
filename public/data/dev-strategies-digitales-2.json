@@ -1,0 +1,29 @@
+[
+    {
+    "question": "Quel modèle de Cloud permet d'externaliser les serveurs, le réseau, le stockage et permet aux entreprises de démarrer ou arrêter des serveurs virtuels ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Software as a Service", "isCorrect": false },
+      { "choice": "Platform as a Service", "isCorrect": false },
+      { "choice": "Infrastructure as a Service", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Quel modèle de Cloud constitue la plate-forme d'exécution, de déploiement et de développement des applications ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Software as a Service", "isCorrect": false },
+      { "choice": "Platform as a Service", "isCorrect": true },
+      { "choice": "Infrastructure as a Service", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Quel modèle de Cloud met à disposition des applications complètes fournies à la demande (CRM, RH, comptabilité, outils collaboratifs, etc.) ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Software as a Service", "isCorrect": true },
+      { "choice": "Platform as a Service", "isCorrect": false },
+      { "choice": "Infrastructure as a Service", "isCorrect": false }
+    ]
+  }
+]

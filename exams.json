@@ -2,7 +2,17 @@
     {
         "id": "strategies-digitales",
         "code": "M.5.3.3",
-        "title": "Développement des Stratégies Digitales",
+        "title": "Développement des Stratégies Digitales 1",
+        "professor": "Pr. S. Baina",
+        "time": "09h00",
+        "mode": "Plateforme",
+        "room": "L20, L21, L22 et L24",
+        "date": "12/01/2026"
+    },
+    {
+        "id": "strategies-digitales-2",
+        "code": "M.5.3.3",
+        "title": "Développement des Stratégies Digitales 2",
         "professor": "Pr. S. Baina",
         "time": "09h00",
         "mode": "Plateforme",
