@@ -27,13 +27,7 @@ export default async function CoursePage({ params }: PageProps) {
 
     try {
         const fileContent = fs.readFileSync(filePath, "utf-8");
-        const allQuestions = JSON.parse(fileContent);
-        // Fisher-Yates shuffle
-        questions = [...allQuestions];
-        for (let i = questions.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [questions[i], questions[j]] = [questions[j], questions[i]];
-        }
+        questions = JSON.parse(fileContent);
     } catch (error) {
         console.error("Error reading questions file:", error);
         return (

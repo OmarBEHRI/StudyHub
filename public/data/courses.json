@@ -1,8 +1,13 @@
 [
     {
         "id": "strategies-digitales",
-        "title": "Développement des Stratégies Digitales",
+        "title": "Développement des Stratégies Digitales 1",
         "file": "dev-strategies-digitales.json"
+    },
+    {
+        "id": "strategies-digitales-2",
+        "title": "Développement des Stratégies Digitales 2",
+        "file": "dev-strategies-digitales-2.json"
     },
     {
         "id": "architecture-entreprise",

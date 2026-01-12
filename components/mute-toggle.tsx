@@ -11,8 +11,8 @@ export function MuteToggle() {
         <button
             onClick={toggleMute}
             className={cn(
-                "fixed top-6 right-6 z-50 flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 bg-transparent text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all",
-                isMuted && "text-red-500 border-red-200"
+                "flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 bg-transparent text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all",
+                isMuted && "text-red-500 border-red-200 shadow-sm shadow-red-100"
             )}
             title={isMuted ? "Unmute" : "Mute"}
         >

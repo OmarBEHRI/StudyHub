@@ -14,8 +14,8 @@
     "type": "multiple",
     "choices": [
       { "choice": "Rapprocher les traitements des données", "isCorrect": true },
-      { "choice": "Réduire le volume des échanges réseau", "isCorrect": true },
-      { "choice": "Equilibrer les charges entre les machines", "isCorrect": true },
+      { "choice": "Réduire le volume des échanges réseau", "isCorrect": false },
+      { "choice": "Equilibrer les charges entre les machines", "isCorrect": false },
       { "choice": "Mettre les traitements aux mêmes endroits", "isCorrect": true }
     ]
   },
@@ -85,7 +85,7 @@
     "choices": [
       { "choice": "Le matériel et le logiciel", "isCorrect": true },
       { "choice": "Le réseau et les données", "isCorrect": false },
-      { "choice": "L'indépendance des calculateurs et la transparence", "isCorrect": true },
+      { "choice": "L'indépendance des calculateurs et la transparence", "isCorrect": false },
       { "choice": "La sécurité et la performance", "isCorrect": false }
     ]
   },
