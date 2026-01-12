@@ -85,7 +85,7 @@
     "choices": [
       {
         "choice": "dépend de l'architecture d'entreprise que nous utilisons",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "choice": "dépend du l'utilisation ou pas d'une architecture d'entreprise.",
@@ -445,11 +445,11 @@
     "choices": [
       {
         "choice": "COBIT",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "choice": "ITIL",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -459,11 +459,11 @@
     "choices": [
       {
         "choice": "COBIT",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "choice": "ITIL",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -473,7 +473,7 @@
     "choices": [
       {
         "choice": "COBIT",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "choice": "ITIL",
@@ -495,7 +495,7 @@
       },
       {
         "choice": "Togaf",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "choice": "Urba",
@@ -503,7 +503,7 @@
       },
       {
         "choice": "Aucun",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
