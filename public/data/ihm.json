@@ -95,7 +95,7 @@
     ]
   },
   {
-    "question": "Dans le modèle du traitement de l'information, le stockage permanent des connaissances correspond à la Structure :",
+    "question": "Dans le cycle de l'interaction personne-machine, le Sous-Système 'Moteur' effectue le traitement principal dans la Structure :",
     "type": "single",
     "choices": [
       { "choice": "Mémoire à long terme", "isCorrect": true },
