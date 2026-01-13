@@ -427,11 +427,11 @@
       },
       {
         "choice": "Des équipes spécialisées",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "choice": "Un processus séparé",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "choice": "Assistance tierce",
