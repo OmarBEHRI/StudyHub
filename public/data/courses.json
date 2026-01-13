@@ -23,5 +23,10 @@
         "id": "referentiels-si",
         "title": "Référentiels et bonnes pratiques des SI",
         "file": "cmmi-ref-bon-pratiques.json"
+    },
+    {
+        "id": "interface-homme-machine",
+        "title": "Interaction Homme-Machine",
+        "file": "ihm.json"
     }
 ]

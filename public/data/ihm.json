@@ -1,0 +1,180 @@
+[
+    {
+    "question": "Dans le cycle en 3 phases de l'interaction personne-machine, la phase 'lit et recherche' correspond au Sous-Système :",
+    "type": "single",
+    "choices": [
+      { "choice": "Perceptuel", "isCorrect": true },
+      { "choice": "Cognitif", "isCorrect": false },
+      { "choice": "Moteur", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans le cycle en 3 phases de l'interaction personne-machine, la phase 'pense' correspond au Sous-Système :",
+    "type": "single",
+    "choices": [
+      { "choice": "Cognitif", "isCorrect": true },
+      { "choice": "Perceptuel", "isCorrect": false },
+      { "choice": "Moteur", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans le cycle en 3 phases de l'interaction personne-machine, la phase 'répond' correspond au Sous-Système :",
+    "type": "single",
+    "choices": [
+      { "choice": "Moteur", "isCorrect": true },
+      { "choice": "Cognitif", "isCorrect": false },
+      { "choice": "Perceptuel", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Le cycle d'interaction d'une action comprend les buts ou objectifs des utilisateurs, la réalisation des tâches à effectuer et le contexte dans lequel elles sont effectuées. La phrase ci-dessus est-elle vraie ou fausse ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Vrai", "isCorrect": false },
+      { "choice": "Faux", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Choisissez la définition correspondant au critère d'utilisabilité 'Efficacité' :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Possibilité d'atteindre le résultat prévu par les utilisateurs",
+        "isCorrect": false
+      },
+      {
+        "choice": "Précision et degré d'achèvement avec lesquels l'utilisateur atteint ses objectifs",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Choisissez la définition correspondant au critère d'utilisabilité 'Efficience' :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Atteinte de résultat requérant un effort moindre",
+        "isCorrect": false
+      },
+      {
+        "choice": "Rapport entre les ressources (temps, effort, matériaux et coût) utilisés et les résultats atteints",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Choisissez la définition correspondant au critère d'utilisabilité 'Satisfaction' :",
+    "type": "single",
+    "choices": [
+      {
+        "choice": "Evaluation subjective de l'interaction pour l'utilisateur",
+        "isCorrect": false
+      },
+      {
+        "choice": "Degré selon lequel les réactions physiques, cognitives et émotionnelles qui résultent de l'utilisation d'un système ou d'un produit",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Dans le cycle de l'interaction personne-machine, le Sous-Système 'Perceptuel' traite l'information provenant de la Structure :",
+    "type": "single",
+    "choices": [
+      { "choice": "Mémoire à court terme", "isCorrect": false },
+      { "choice": "Registre sensoriel", "isCorrect": true },
+      { "choice": "Mémoire à long terme", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans le cycle de l'interaction personne-machine, le Sous-Système 'Cognitif' effectue le traitement principal dans la Structure :",
+    "type": "single",
+    "choices": [
+      { "choice": "Registre sensoriel", "isCorrect": false },
+      { "choice": "Mémoire à long terme", "isCorrect": false },
+      { "choice": "Mémoire à court terme", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Dans le modèle du traitement de l'information, le stockage permanent des connaissances correspond à la Structure :",
+    "type": "single",
+    "choices": [
+      { "choice": "Mémoire à long terme", "isCorrect": true },
+      { "choice": "Mémoire à court terme", "isCorrect": false },
+      { "choice": "Registre sensoriel", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Le Design Thinking (DT) est un nouvel état d'esprit et un nouveau regard sur le monde qui nous entoure pour concevoir des solutions IHM centrées utilisateur. Parmi les multiples choix proposés, cocher la ou les proposition.s lié.e.s au DT.",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Méthodologie d'Intelligence Collective", "isCorrect": true },
+      { "choice": "Processus de co-créativité impliquant des retours de l'utilisateur final", "isCorrect": true },
+      { "choice": "Conception seule des spécialistes en nouvelles technologies", "isCorrect": false },
+      { "choice": "Etude des facteurs humains", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans la théorie du comportement en IHM, à quoi correspond le Modèle 1 (commençant par C) ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Cycle d'interaction personne-machine", "isCorrect": true },
+      { "choice": "Conception centrée utilisateur", "isCorrect": false },
+      { "choice": "Comportement cognitif distribué", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans la théorie du comportement en IHM, à quoi correspond le Modèle 2 (commençant par C) ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Construction de l'interface graphique", "isCorrect": false },
+      { "choice": "Cycle d'interaction d'une action", "isCorrect": true },
+      { "choice": "Communication homme-machine", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans la théorie du comportement en IHM, à quoi correspond le Modèle 3 (commençant par P) ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Processus unifié de développement", "isCorrect": false },
+      { "choice": "Planification hiérarchique", "isCorrect": true },
+      { "choice": "Perception visuelle et auditive", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans la théorie du comportement en IHM, à quoi correspond le Modèle 4 (commençant par P) ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Planification dynamique non linéaire", "isCorrect": true },
+      { "choice": "Prototypage rapide et itératif", "isCorrect": false },
+      { "choice": "Programmation orientée objet", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Dans la théorie du comportement en IHM, à quoi correspond le Modèle 5 (commençant par R) ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Reconnaissance vocale", "isCorrect": false },
+      { "choice": "Rétroaction sensorielle", "isCorrect": false },
+      { "choice": "Raisonnement par analogie", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Dans la théorie du comportement en IHM, à quoi correspond le Modèle 6 (commençant par S) ?",
+    "type": "single",
+    "choices": [
+      { "choice": "Structuration de la mémoire humaine", "isCorrect": true },
+      { "choice": "Système de gestion de bases de données", "isCorrect": false },
+      { "choice": "Simulation cognitive avancée", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "En IHM, le retour d'information est l'un des éléments d'ergonomie cognitive. Quels sont les types de messages utilisés selon les différentes situations ?",
+    "type": "multiple",
+    "choices": [
+      { "choice": "Avertissement", "isCorrect": true },
+      { "choice": "Erreur", "isCorrect": true },
+      { "choice": "Information", "isCorrect": true },
+      { "choice": "Progression", "isCorrect": true }
+    ]
+  }
+]
