@@ -36,11 +36,11 @@
   },
   {
     "question": "Choisissez la définition correspondant au critère d'utilisabilité 'Efficacité' :",
-    "type": "single",
+    "type": "multiple",
     "choices": [
       {
         "choice": "Possibilité d'atteindre le résultat prévu par les utilisateurs",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "choice": "Précision et degré d'achèvement avec lesquels l'utilisateur atteint ses objectifs",
@@ -50,11 +50,11 @@
   },
   {
     "question": "Choisissez la définition correspondant au critère d'utilisabilité 'Efficience' :",
-    "type": "single",
+    "type": "multiple",
     "choices": [
       {
         "choice": "Atteinte de résultat requérant un effort moindre",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "choice": "Rapport entre les ressources (temps, effort, matériaux et coût) utilisés et les résultats atteints",
@@ -64,11 +64,11 @@
   },
   {
     "question": "Choisissez la définition correspondant au critère d'utilisabilité 'Satisfaction' :",
-    "type": "single",
+    "type": "multiple",
     "choices": [
       {
         "choice": "Evaluation subjective de l'interaction pour l'utilisateur",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "choice": "Degré selon lequel les réactions physiques, cognitives et émotionnelles qui résultent de l'utilisation d'un système ou d'un produit",
